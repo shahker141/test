@@ -13,7 +13,7 @@ pipeline {
         }
         stage('run code') {
           steps {
-            sh 'echo "Hello"'
+            echo 'done'
           }
         }
         stage('rerun') {
